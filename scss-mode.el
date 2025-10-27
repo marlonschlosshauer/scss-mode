@@ -116,6 +116,7 @@ Special commands:
 
 (push '(".+\\.scss$" flymake-scss-init) flymake-allowed-file-name-masks)
 
+
 ;;;; TODO: Not possible to use multiline regexs flymake? flymake-err-[line]-patterns
 ;; '("Syntax error:\s*\\(.*\\)\n\s*on line\s*\\([0-9]+\\) of \\([^ ]+\\)$" 3 2 nil 1)
 (push '("on line \\([0-9]+\\) of \\([^ ]+\\)$" 2 1 nil 2) flymake-err-line-patterns)
